@@ -9,3 +9,4 @@ echo $currentTime
 if [[ ! ( "$currentTime" < "$prodStartTime" || "$currentTime" > "$prodEndTime" ) ]]; then
    echo "--->"
 fi
+
